@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CRUD_WithBDDApproach_Reqress.UpdateUser">
+      <class name="UsingPOJOClass_RMG.CreateProject">
         <methods>
-          <include name="updateUser"/>
+          <include name="createProject"/>
         </methods>
-      </class> <!-- CRUD_WithBDDApproach_Reqress.UpdateUser -->
+      </class> <!-- UsingPOJOClass_RMG.CreateProject -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
