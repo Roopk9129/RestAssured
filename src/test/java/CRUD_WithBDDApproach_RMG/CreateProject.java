@@ -25,8 +25,10 @@ public class CreateProject {
 		given()
 		.body(jobj)
 		.contentType(ContentType.JSON)
+		
 		.when()
 		.post("/addProject")
+		
 		.then()
 		.assertThat()
 		.statusCode(201)

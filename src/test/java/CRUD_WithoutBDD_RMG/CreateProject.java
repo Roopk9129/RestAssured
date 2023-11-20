@@ -24,10 +24,7 @@ public class CreateProject {
 		RequestSpecification req = RestAssured.given();
 		req.body(jobj);
 		req.contentType(ContentType.JSON);
-
 		Response resp = req.post("http://rmgtestingserver:8084/addProject");
-//		System.out.println(resp.asString());
-//		System.out.println(resp.asPrettyString());
 		System.out.println(resp.prettyPrint());
 		System.out.println(resp.contentType());
 

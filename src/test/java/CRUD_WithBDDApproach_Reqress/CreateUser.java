@@ -18,9 +18,6 @@ public class CreateUser {
 		jobj.put("name", "roop");
 		jobj.put("job", "AM");
 		
-		
-
-		
 		given()
 		.body(jobj)
 		.contentType(ContentType.JSON)

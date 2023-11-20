@@ -1,6 +1,9 @@
 package CRUD_WithBDDApproach_Reqress;
 
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.baseURI;
+import static io.restassured.RestAssured.given;
+
+
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
@@ -27,6 +30,8 @@ public class UpdateUser {
 		.assertThat()
 		.statusCode(200)
 		.log().all();
+		
 	}
+	
 
 }

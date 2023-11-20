@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="UsingPOJOClass_RMG.CreateProject">
+      <class name="RequestChaining.RequestChaining_RMG">
         <methods>
-          <include name="createProject"/>
+          <include name="requestChaining_RMG"/>
         </methods>
-      </class> <!-- UsingPOJOClass_RMG.CreateProject -->
+      </class> <!-- RequestChaining.RequestChaining_RMG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

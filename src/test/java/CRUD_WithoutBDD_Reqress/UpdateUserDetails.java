@@ -20,7 +20,7 @@ public class UpdateUserDetails {
 		put.body(jobj);
 		put.contentType(ContentType.JSON);
 		
-		Response res = put.put("https://reqres.in/api/users/2");
+		 Response res = put.put("https://reqres.in/api/users/2");
 		System.out.println(res.prettyPeek());
 		int scode = res.statusCode();
 		Assert.assertEquals(200, scode);
