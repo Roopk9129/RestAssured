@@ -9,7 +9,7 @@ public class GetAllProjects {
 	@Test
 	public void getAllProjects() {
 		Response getreq = RestAssured.get("http://rmgtestingserver:8084/projects");
-		System.out.println(getreq.asString());
+		System.out.println(getreq.prettyPrint());
 	}
 
 }

@@ -25,12 +25,9 @@ public class BaseClassApi {
 		reqS = new RequestSpecBuilder().setBaseUri("http://rmgtestingserver:8084")
 				.setContentType(ContentType.JSON).build();
 		resS = new ResponseSpecBuilder().expectContentType(ContentType.JSON).build();
-
 	}
 	@AfterSuite
 	public void AS() throws Throwable {
 		du.closeDB();
-
 	}
-
 }

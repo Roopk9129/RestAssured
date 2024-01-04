@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RequestChaining.RequestChaining_RMG">
+      <class name="CRUD_WithoutBDD_RMG.GetAllProjects">
         <methods>
-          <include name="requestChaining_RMG"/>
+          <include name="getAllProjects"/>
         </methods>
-      </class> <!-- RequestChaining.RequestChaining_RMG -->
+      </class> <!-- CRUD_WithoutBDD_RMG.GetAllProjects -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

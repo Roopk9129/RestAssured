@@ -16,12 +16,10 @@ public class AccessApisUsingToken_Coops {
 		.formParam("grant_type", "client_credentials")
 		.formParam("redirect_uri", "http://example.com")
 		.formParam("code", "authorization_code")
-		
 		.when()
 		.post("/token");
 		resp.then().assertThat().statusCode(200)
 		.log().all();
-		
 		String token = resp.jsonPath().get("access_token");
 		System.out.println(token);
 		given().auth().oauth2(token).pathParam("id",4732)

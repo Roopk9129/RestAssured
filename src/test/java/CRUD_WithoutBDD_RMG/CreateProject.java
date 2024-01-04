@@ -15,7 +15,6 @@ public class CreateProject {
 	public void createProject() {
 		JSONObject jobj = new JSONObject();
 		int ranInt = new Random().nextInt(1000);
-		
 		jobj.put("createdBy", "Test_" + ranInt);
 		jobj.put("projectName", "Project_Test_" + ranInt);
 		jobj.put("status", "Completed");
